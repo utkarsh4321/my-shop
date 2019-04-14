@@ -1,0 +1,43 @@
+
+ 
+{{!-- PRODUCTS SHOWCASE --}}
+<div class="container">
+<h1 class="center-align">Checkout your ,<span class="pink-text lighten-3">Orders</span></h1>
+
+
+</div>
+
+
+       <div class="section">
+<div class="row">
+{{#each orde}}
+<div class="col s12 m3">
+ <div class="card horizontal hoverable">
+      <div class="card-image">
+        <img src="https://lorempixel.com/100/190/nature/{{@index}}">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <h5 style="margin:0;margin-bottom:5px;">{{this.name}}</h5>
+          <p>${{this.price}}</p>
+          <p class="green-text" style="margin-top:10px;">quantity:{{this.quantity}}</p>
+        </div>
+        
+        <div class="card-action" style="padding:8px 5px;">
+          <button class="waves-effect waves-light btn deletes" data-id="{{this._id}}">Delete</button>
+         
+        </div>
+
+      </div>
+    </div>
+
+</div>
+{{/each}}
+</div>
+
+
+       </div>
+
+{{!-- PRODUCT SHOWCASE ENDED --}}
+
+

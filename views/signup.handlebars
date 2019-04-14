@@ -1,0 +1,47 @@
+  
+ <div class="container" style="margin-top:3rem;">
+<p class="center-align flow-text {{color}}-text" style="margin-right:5rem;">{{message}}</p>
+<div class="row valign-wrapper">
+<div class="col valign m7 offset-m2 s12">
+  <div class="card">
+        <div class="card-content">
+          <h3 class="center-align teal-text accent-2" style="margin-top:0;">Sign<span>up</span></h3>
+          <form action="/user/signup" method="POST">
+          <div class="input-field">
+          <i class="material-icons prefix">person</i>
+          <input type="text" id="autocomplete-input5" class="autocomplete" name="username" required>
+          <label for="autocomplete-input5">Username</label>
+        </div>
+<div class="input-field">
+          <i class="material-icons prefix">email</i>
+          <input type="email" id="autocomplete-input" class="autocomplete" name="email" required>
+          <label for="autocomplete-input">Email</label>
+        </div>
+<div class="input-field">
+          <i class="material-icons prefix">vpn_key</i>
+          <input type="password" id="autocomplete-input1" class="autocomplete" name="password" required>
+          <label for="autocomplete-input1">Password</label>
+        </div>
+        <div class="row" style="margin-top:1.2rem;">
+<button class="btn waves-effect waves-light col s4 offset-s4" type="submit" name="action">Submit
+    
+  </button>
+</div>
+          </form>
+        </div>
+        {{!-- <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div> --}}
+        
+      </div>
+
+</div>
+</div>
+
+
+
+
+
+ </div>
+  

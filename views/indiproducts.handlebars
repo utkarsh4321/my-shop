@@ -1,0 +1,95 @@
+
+
+
+<div class="container">
+<h1 class="center-align">Your,<span class="pink-text lighten-3">Choice</span></h1>
+
+
+
+
+
+       <div class="section" style="margin-left:20rem; margin-right:auto;">
+<div class="row">
+
+        
+<div class="col s12 m8">
+    
+ <div class="card horizontal hoverable">
+      <div class="card-image">
+        <img src="https://lorempixel.com/100/190/nature/4">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <h5>{{indi.name}}</h5>
+          <p>{{indi.price}}</p>
+        </div>
+        <div class="card-action" style="display:flex;justify-content:space-around; padding:10px 5px;">
+          <a href="/products" class="waves-effect waves-light btn black accent-4" type="GET" style="font-size:.8rem;margin-right:.2rem;">Back</a>
+          
+            <button class="waves-effect waves-light btn red darken-1 modal-trigger" href="#modal1" data-id="{{this._id}}">Update</button>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+</div>
+    
+
+       </div>
+       </div>
+    
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal bottom-sheet">
+    <a class="modal-close waves-effect waves-green btn-flat" style="position:absolute; top:10px;right:10px;"><i class="material-icons">close</i></a>
+    <div class="modal-content">
+      <div>
+        
+ <div class="container" style="margin-top:3rem;">
+
+<div class="row valign-wrapper">
+<div class="col valign s12">
+  <div class="card">
+        <div class="card-content">
+          <h3 class="center-align teal-text accent-2" style="margin-top:0;">Update <span>Product</span></h3>
+          <form>
+<div class="input-field">
+          
+          <input type="text" id="autocomplete-input" class="autocomplete" required>
+          <label for="autocomplete-input">Name</label>
+        </div>
+<div class="input-field">
+        
+          <input type="number" id="autocomplete-input2" class="autocomplete" required>
+          <label for="autocomplete-input2">price</label>
+        </div>
+       
+        <div class="row" style="margin-top:1.2rem;">
+<button class="btn waves-effect waves-light col s4 offset-s4 updateMe" name="action" data-id="{{indi._id}}">Update Product
+    
+  </button>
+</div>
+          </form>
+        </div>
+        
+        
+      </div>
+
+</div>
+</div>
+
+
+
+
+
+ </div>
+  
+      </div>
+      
+      
+    </div>
+    <div class="modal-footer">
+      
+    </div>
+  </div>

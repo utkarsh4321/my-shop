@@ -1,0 +1,44 @@
+  
+ <div class="container" style="margin-top:3rem;">
+
+   {{#if message}}
+<p style="color:red;text-align:center;margin-right:5rem;" class="flow-text">{{message}}</p>
+
+{{/if}}
+
+<div class="row valign-wrapper">
+<div class="col valign m7 offset-m2 s12">
+  <div class="card">
+        <div class="card-content">
+          <h3 class="center-align teal-text accent-2" style="margin-top:0;">Log<span>in</span></h3>
+          <form action="/user/login" method="POST">
+<div class="input-field">
+          <i class="material-icons prefix">email</i>
+          <input type="email" id="autocomplete-input" class="autocomplete" name="email" required>
+          <label for="autocomplete-input">Email</label>
+        </div>
+<div class="input-field">
+          <i class="material-icons prefix">vpn_key</i>
+          <input type="password" id="autocomplete-input2" class="autocomplete" name="password" required>
+          <label for="autocomplete-input2">Password</label>
+        </div>
+        <div class="row" style="margin-top:1.2rem;">
+<button class="btn waves-effect waves-light col s4 offset-s4" type="submit" name="action">Login
+    
+  </button>
+</div>
+          </form>
+        </div>
+        
+        
+      </div>
+
+</div>
+</div>
+
+
+
+
+
+ </div>
+  

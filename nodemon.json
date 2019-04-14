@@ -1,0 +1,13 @@
+{
+"env":{
+
+    "Mongo_Atlas_cloud_pw":"MDYUS6OsDDOIOyAI",
+    "JWT_KEY":"loginSecret"
+
+
+
+
+
+
+}
+}

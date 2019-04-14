@@ -1,0 +1,42 @@
+
+ 
+{{!-- PRODUCTS SHOWCASE --}}
+<div class="container">
+<h1 class="center-align">Checkout all ,<span class="pink-text lighten-3">Products</span></h1>
+
+
+</div>
+
+
+       <div class="section">
+<div class="row">
+{{#each products}}
+<div class="col s12 m3">
+ <div class="card horizontal hoverable">
+      <div class="card-image">
+        <img src="https://lorempixel.com/100/190/nature/{{@index}}">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <h5>{{this.name}}</h5>
+          <p>{{this.price}}</p>
+        
+        </div>
+        <div class="card-action" style="display:flex;justify-content:space-between; padding:10px 5px;">
+          <a href="/products/{{this._id}}" class="waves-effect waves-light btn black accent-4" type="GET" style="font-size:.8rem;margin-right:.2rem;">View</a>
+          <a href="/orders/{{this._id}}" type="GET" class="waves-effect waves-light btn black accent-3" style="font-size:.8rem; margin-right:.2rem;">Order</a>
+            <button class="waves-effect waves-light btn deletes red darken-1" data-id="{{this._id}}">Delete</button>
+        </div>
+      </div>
+    </div>
+
+</div>
+{{/each}}
+</div>
+
+
+       </div>
+
+{{!-- PRODUCT SHOWCASE ENDED --}}
+
+
