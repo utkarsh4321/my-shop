@@ -1,4 +1,4 @@
-# my-shop
+# My-Shop
 This is a simple ecommerce type website which is made on node,express,mongodbAtlas,express-handlebars and login,signup with jwt tokens
 ## Getting Started
 First of all clone the repo by the command
