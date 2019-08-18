@@ -1,13 +1,6 @@
 {
-"env":{
-
-    "Mongo_Atlas_cloud_pw":"your key###########",
-    "JWT_KEY":"loginSecret"
-
-
-
-
-
-
-}
+  "env": {
+    "Mongo_Atlas_cloud_pw": "sudha4321",
+    "JWT_KEY": "loginSecret"
+  }
 }
