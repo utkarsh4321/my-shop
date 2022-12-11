@@ -14,7 +14,7 @@
     "bcrypt": "^3.0.5",
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.4",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-flash-messages": "^0.1.1",
     "express-handlebars": "^3.0.2",
     "jsonwebtoken": "^8.5.1",
